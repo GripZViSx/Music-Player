@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="music-player">
+    <!-- Audio -->
+    <audio id="audio">
+      <source src="" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Album Photo -->
+    <div class="album-art">
+      <img id="album-photo" src="https://us-east-1.tixte.net/uploads/gripz.likes.cash/kulin_soni.jpg" alt="Album Photo">
+    </div>
+    <div id="track-name">Press Play</div>
+
+    <!-- Time Dispaly -->
+    <div id="time-display"></div>
+
+    <!-- Track Slider -->
+    <div id="controls">
+      <input type="range" id="track-slider" min="0" value="0">
+    </div>
+
+    <!-- Buttons -->
+    <div id="controls">
+      <button id="prev-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M14 3.002a1 1 0 0 0-1.578-.816l-7 4.963a1 1 0 0 0-.007 1.628l7 5.037A1 1 0 0 0 14 13.003zM2 2.5a.5.5 0 0 1 1 0v11a.5.5 0 0 1-1 0z" />
+        </svg></button>
+      <button id="play-pause" class="hover-border"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M21.409 9.353a2.998 2.998 0 0 1 0 5.294L8.597 21.614C6.534 22.737 4 21.277 4 18.968V5.033c0-2.31 2.534-3.769 4.597-2.648z" />
+        </svg></button>
+      <button id="next-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M2 3.002a1 1 0 0 1 1.578-.816l7 4.963a1 1 0 0 1 .007 1.628l-7 5.037A1 1 0 0 1 2 13.003zM14 2.5a.5.5 0 1 0-1 0v11a.5.5 0 0 0 1 0z" />
+        </svg></button>
+    </div>
+  </div>
+  <footer><a href="https://github.com/GripZViSx/Music-Player" target="_blank">Github</a></footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
