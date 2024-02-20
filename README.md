@@ -5,6 +5,7 @@ Credits to [Lost Bong Coder](https://youtu.be/DYd5Mfah1Mg?feature=shared) for fe
 
 
 **How Does It Work ?**
+
 All the audio files are stored in cdn and their names are stored seperately in a list.
 
 All the audio files' link are stored in a list, along with their track images(in seperate list) in Javascript file from which it renders them and splits the name from it's extension to get the name for music.
@@ -12,4 +13,4 @@ All the audio files' link are stored in a list, along with their track images(in
 More audios can be added through file upload ( I will keep on updating it, whenever I get time ). 
 
 *Things to keep in mind* -
-Give a poster link or upload in assets and link it for every subsequent audio file else the image will not render anything.
+Give a name & poster link (you can upload in assets and link it) for every subsequent audio file else the image will not render anything.
