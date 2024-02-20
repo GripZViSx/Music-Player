@@ -5,7 +5,7 @@ Credits to [Lost Bong Coder](https://youtu.be/DYd5Mfah1Mg?feature=shared) for fe
 
 
 **How Does It Work ?**
-All the audio files are stored in cdn and their names are stored exactly what you want to show when it plays.
+All the audio files are stored in cdn and their names are stored seperately in a list.
 
 All the audio files' link are stored in a list, along with their track images(in seperate list) in Javascript file from which it renders them and splits the name from it's extension to get the name for music.
 
