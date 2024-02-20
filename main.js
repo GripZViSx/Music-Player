@@ -17,12 +17,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Array of Track URLs
   const trackList = [
-    "audio/Metamorphosis.wav", "audio/One Chance.wav",
-    "audio/Memory Reboot.wav",
-    "audio/Fainted.wav"
+    "", "", "", ""
   ];
-
-
+  // Array of Track Names
+  const trackNames = [
+    "Metamorphosis", "One Chance", "Memory Reboot", "Fainted"
+    ]
   // Array of Album Photos
   const albumPhotos = [
     "https://c.saavncdn.com/221/METAMORPHOSIS-English-2021-20220215012012-500x500.jpg",
@@ -101,9 +101,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Function to update the track name
   function updateTrackName(trackIndex) {
-    const trackName = trackList[trackIndex];
-    const cleanedTrackName = trackName.replace("audio/", "").split(".");
-    trackNameDisplay.textContent = cleanedTrackName[0];
+    const trackName = trackNames[trackIndex];
+    trackNameDisplay.textContent = trackName;
     albumPhoto.src = albumPhotos[trackIndex];
   }
 
