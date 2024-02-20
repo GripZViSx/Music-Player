@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Array of Track URLs
   const trackList = [
-    "", "", "", ""
+    "audios/Metamorphosis.mp3", "audios/One Chance.mp3", "audios/Memory Reboot.mp3", "audios/Fainted.mp3"
   ];
   // Array of Track Names
   const trackNames = [
