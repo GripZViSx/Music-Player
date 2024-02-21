@@ -17,11 +17,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Array of Track URLs
   const trackList = [
-    "audios/Metamorphosis.mp3", "audios/One Chance.mp3", "audios/Memory Reboot.mp3", "audios/Fainted.mp3", "audios/Daydream.mp3"
+    "audios/Metamorphosis.mp3",
+    
+    "audios/One Chance.mp3",
+    
+    "audios/Memory Reboot.mp3",
+    
+    "audios/Fainted.mp3",
+    
+    "audios/Daydream.mp3",
+
+    "audios/Rapture.mp3"
   ];
   // Array of Track Names
   const trackNames = [
-    "Metamorphosis", "One Chance", "Memory Reboot", "Fainted", "Daydream"
+    "Metamorphosis",
+    "One Chance",
+    "Memory Reboot",
+    "Fainted",
+    "Daydream",
+    "Rapture"
     ]
   // Array of Album Photos
   const albumPhotos = [
@@ -33,7 +48,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     "https://imgs.search.brave.com/HmDT-D8LU2o1YZZHMUe6u77IaBoXHh8H2B40Soe2p2E/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pMS5z/bmRjZG4uY29tL2Fy/dHdvcmtzLUFjV1ZX/eWJROUhOVUNycnAt/aldqcWhBLXQ1MDB4/NTAwLmpwZw",
 
-    "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/73/d6/4a/73d64a99-6e28-20cd-2dfc-61958d0801f2/197190667868.jpg/500x500bb.jpg"
+    "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/73/d6/4a/73d64a99-6e28-20cd-2dfc-61958d0801f2/197190667868.jpg/500x500bb.jpg",
+
+    "https://imgs.search.brave.com/4VlCzR18CbNK1F7c2Qs1NEDX8GKVRXILRFaJE5flbrI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sYXN0/Zm0uZnJlZXRscy5m/YXN0bHkubmV0L2kv/dS81MDB4NTAwLzk5/ZTIyZTRiMTRhNjI1/ZGNkYTQwNGIyOWZi/OTFkMzc5LmpwZw"
   ];
   // Function to toggle between Play and Pause
   function togglePlayPause() {
