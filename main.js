@@ -1,4 +1,4 @@
-/*document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
   const audio = document.getElementById("audio");
   const playPauseButton = document.getElementById("play-pause");
   const prevButton = document.getElementById("prev-button");
@@ -169,4 +169,4 @@
     const remainingSeconds = Math.floor(seconds % 60);
     return `${minutes}:${remainingSeconds < 10 ? "0" : ""}${remainingSeconds}`;
   }
-});*/
+});
